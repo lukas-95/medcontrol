@@ -20,6 +20,7 @@ public class CirurgiaController {
 
     @GetMapping()
     public ResponseEntity<List<Cirurgia>> getCirurgias(){
+
         return ResponseEntity.ok(cirurgiaService.getCirurgias());
     }
 
